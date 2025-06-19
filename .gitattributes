@@ -1,1 +1,31 @@
 *.cs linguist-language=C#
+
+*.shader linguist-language=ShaderLab
+
+*.unity linguist-language=YAML
+
+*.prefab linguist-language=YAML
+
+*.meta linguist-language=YAML
+
+*.anim linguist-language=YAML
+
+*.asset linguist-language=YAML
+
+ProjectSettings/** linguist-vendored=true
+Packages/** linguist-vendored=true
+Library/** linguist-vendored=true
+Temp/** linguist-vendored=true
+Logs/** linguist-vendored=true
+
+*.dll linguist-vendored=true
+*.exe linguist-vendored=true
+*.pdb linguist-vendored=true
+*.mdb linguist-vendored=true
+
+*.md linguist-language=Markdown
+*.txt linguist-language=Text
+
+*.json linguist-language=JSON
+
+*.xml linguist-language=XML
